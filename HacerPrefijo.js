@@ -7,3 +7,12 @@ function makePrefixer (prefijo) {
 const prefijoRe = makePrefixer("re")
 
 prefijoRe("bueno")
+
+/*
+const prefijoRE = 're';
+const prefijoIN = 'in';
+
+const makePrefixer = (prefijo, palabra) => prefijo + palabra;
+
+console.log(makePrefixer(prefijoRE, "malo"));
+*/
